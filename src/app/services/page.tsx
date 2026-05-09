@@ -196,7 +196,7 @@ export default function ServicesPage() {
                   </Link>
                 </div>
 
-                {/* Image */}
+                {/* Images */}
                 <div
                   className={`relative h-72 sm:h-96 rounded-2xl overflow-hidden ${index % 2 === 1 ? "lg:col-start-1" : ""}`}
                 >

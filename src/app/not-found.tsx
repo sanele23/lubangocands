@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import { ArrowLeft } from 'lucide-react'
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 export default function NotFound() {
   return (
@@ -10,9 +10,11 @@ export default function NotFound() {
           404
         </div>
         <div className="-mt-16 sm:-mt-24">
-          <h1 className="font-display text-2xl sm:text-3xl font-bold text-white">Page Not Found</h1>
+          <h1 className="font-display text-2xl sm:text-3xl font-bold text-white">
+            Page Not Found
+          </h1>
           <p className="mt-3 text-slate-400 text-sm max-w-sm mx-auto leading-relaxed">
-            The page you're looking for doesn't exist or has been moved.
+            Coming Soon! :)
           </p>
           <Link
             href="/"
@@ -24,5 +26,5 @@ export default function NotFound() {
         </div>
       </div>
     </div>
-  )
+  );
 }
